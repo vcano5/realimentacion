@@ -1,0 +1,29 @@
+@charset "utf-8";
+tabla-larga {
+	height: 100%;
+}
+.tabla-superior {
+	height: 75%;
+}
+.tabla-inferior {
+	height: 25%;
+}
+
+
+.map-responsive{
+    overflow:hidden;
+    padding-bottom:56.25%;
+    position:relative;
+    height:0;
+}
+.map-responsive iframe{
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
+}
+
+.colorize-pink {
+  filter: brightness(0.5) sepia(1) hue-rotate(-70deg) saturate(5);
+}
